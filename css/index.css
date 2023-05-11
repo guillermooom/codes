@@ -1,0 +1,198 @@
+/* ESTILO DE MOVILES */
+#buscador{
+    background-image: url('../img/cudilleros.jpg');
+    width: 100%;
+    height: 710px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: anima 45s infinite;
+    margin-top:-710px;
+    position: relative;
+    z-index: -1;
+}
+#destino{
+    width: 100%;
+    height: 710px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:-710px;
+}
+#bus{
+    background-image: url('../img/cudilleros.jpg');
+    width: 100%;
+    height: 710px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: refuerzo 45s infinite;
+    position: relative;
+    z-index: -2;
+}
+#buscar{
+    width: 55%;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 5px 5px 20px;
+}
+#lupa{
+    width: 40px;
+    height: 40px;
+    margin-left: -39.5px;
+    border-radius: 25px;
+    background-color: #44acb3;
+}
+@keyframes anima{
+    0%{
+        opacity: 1;
+        background-image: url('../img/cudilleros.jpg');
+    }
+    10%{
+        opacity: 1;
+        background-image: url('../img/cudilleros.jpg');
+    }
+    15%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;    
+    }
+    23%{
+        background-image: url('../img/asturias.jpg');
+    }
+    30%{
+        opacity: 1;
+        background-image: url('../img/asturias.jpg');
+    }
+    35%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    43%{
+        background-image: url('../img/louvre.jpg');
+    }
+    50%{
+        opacity: 1;
+        background-image: url('../img/louvre.jpg');
+    }
+    55%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    63%{
+        background-image: url('../img/barcelona.jpeg');
+    }
+    70%{
+        opacity: 1;
+        background-image: url('../img/barcelona.jpeg');
+    }
+    75%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+    83%{
+        background-image: url('../img/ibiza.jpg');
+    }
+    90%{
+        opacity: 1;
+        background-image: url('../img/ibiza.jpg');
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        background-image: url('../img/cudilleros.jpg');
+    }
+
+}
+
+@keyframes refuerzo{
+    0%{
+        opacity: 0.95;
+    }
+    15%{
+        opacity: 1;
+        background-image: url('../img/asturias.jpg');
+    }
+    20%{
+        opacity: 0.95;    
+    }
+    30%{
+        opacity: 0.95;
+    }
+    35%{
+        opacity: 1;
+        background-image: url('../img/louvre.jpg');
+    }
+    40%{
+        opacity: 0.95;
+    }
+    50%{
+        opacity: 0.95;
+    }
+    55%{
+        opacity: 1;
+        background-image: url('../img/barcelona.jpeg');
+    }
+    60%{
+        opacity: 0.95;
+    }
+    70%{
+        opacity: 0.95;
+    }
+    75%{
+        opacity: 1;
+        background-image: url('../img/ibiza.jpg');
+    }
+    80%{
+        opacity: 0.95;
+    }
+    90%{
+        opacity: 0.95;
+    }
+    94%{
+        opacity: 1;
+        background-image: url('../img/cudilleros.jpg');
+    }
+    100%{
+        opacity: 0.95;
+    }
+
+}
+
+/* ESTILO DE TABLETS */
+@media (min-width:600px){
+    
+}
+
+/* ESTILO DE ORDENADOR */
+@media (min-width:1200px){
+    #buscar{
+        width: 55%;
+        height: 40px;
+        border: none;
+        border-radius: 50px;
+        padding: 5px 5px 5px 20px;
+    }
+    #lupa{
+        width: 50px;
+        height: 50px;
+        margin-left: -49.5px;
+        border-radius: 25px;
+    }
+}
