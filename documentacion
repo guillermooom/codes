@@ -1,0 +1,5 @@
+Para solucionar el problema de las cookies y sesiones en 000webhost debemos ir a los archivos y dentro de la carpeta public_html,
+dentro de esa carpeta vamos al archivo .httpaccess e insertaremos al final una nueva linea que será la siguinte: php_flag output_buffering on
+guardaremos e instantneamente se nos solucionará los errores relacionados con cookies y sesiones.
+
+REFERENCIA: https://stackoverflow.com/questions/41764865/php-session-variables-not-working-on-000webhost-com
