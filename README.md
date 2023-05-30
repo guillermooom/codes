@@ -1,2 +1,1 @@
-Este es un repositorio donde estarán códigos interesantes o algunas plantillas para usar
-De aquí se quedaran varios códigos y todo estará organizad en branches y cada código tendrá su respectivo READ ME con su explicacion
+Este es un repositorio para lña solución de cookies en webhost por si se presenta errores aqui dejo la solucion con un enlace de referencia.
