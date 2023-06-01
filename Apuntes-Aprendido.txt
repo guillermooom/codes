@@ -1,0 +1,33 @@
+*** ANGULAR ***
+
+- Se usa Visual Studio Code, antes de todo hay que crear una carpeta y luego abrirla con visual
+
+- Crear componentes:
+	- ng g s /nombre/ -> te genera un servicio (sierve para conectaro con la BD)
+	- ng g class /nombre/ -> te genera una clase (sierve para poner los campos de un elemento dentro de la BD)
+	- ng serve -o -> arranca la aplicacion
+	- npm install -> instala el proyecto angular que hemos importado //no se si sirve cuando empezamos uno de creo tambien
+
+- donde pone index es la página que se muetsra lo primero
+- para las routar va en app.module.ts, (primero tienes que importar el servicio y luego le tienes que decir abajo en el path como se veria en la url
+- en el app.modulo.ts cuando creas un componente este ya se actualiza
+
+
+*** GIT ***
+
+
+*** GITHUB ***
+
+- la parte de proyects se usa para organizar un proyecto
+- tienes que crearlo, le das a create (en link le das a la flecha de abajo y listo) y lo creas, para mejor vista ponerlo en board
+- al crearlo tienes 3 partes to do, progress, done
+- despues de crearlo tienes que darle a add item y le pones el nombre
+- depues lo conviertes a issue
+- para editarlo y darle mas cosas como etiquetas o descripccion le damos al nombre
+- dentro para darle etiquetas le tienes q dar a la derecha y te salen toda las que tienen
+- en la descripcion puedes ponerle sub tareas y parte solo con poner lo siguinte : -[ ]
+- si arrastras lo puedes cambiar de tablas entres las que te da
+- puedes crear tus tablas con su nombre y su color
+
+//etiquetas
+- para crear etiquetas es en isuues y luego le das a label y ahi ya la creas
