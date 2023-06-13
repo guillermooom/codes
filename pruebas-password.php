@@ -14,7 +14,7 @@
     setcookie("PHPSESSID","",time()-3600,"/");
 
     //COMPROBACION DE CONTRASEÑAS CIFRADAS
-    $p="Criiss1904";
+    $p="1234";
     echo password_hash($p, PASSWORD_DEFAULT)."<br>";
     if(password_verify($p,'$2y$10$lzUAMGTXqEHkMwGP1d9EsuiCP9HNppJP/pWupCKqFttMFOoZt7xgm')){
         echo "bien";
